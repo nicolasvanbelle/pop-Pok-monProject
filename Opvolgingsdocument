@@ -1,0 +1,285 @@
+=================================================================================
+
+Persoonlijk ontwikkelingsplan (POP) - opvolgingsdocument Academiejaar 2018-2019
+
+=================================================================================
+
+Student:	Nicolas Van Belle
+
+Mentor:		Johan Donné
+
+=================================================================================
+Augumented reality applicatie in Swift4 - 15/02/2019
+=================================================================================
+
+Onderwerp:
+
+Ik zou graag een augmented reality applicatie  in IOS uitwerken. Dit met behulp van Swift4 programming dus een native applicatie in iOS.
+Graag zou ik een 3D-model van een Pokémon op een Pokémonkaart willen tonen van die pokémon op de kaart (Herkenning van de Pokémon).
+
+Einddoelen (met evaluatiecriteria):
+
+1. Pokémon(figuur) herkennen op de Pokémonkaart.
+2. 3D-model op de kaart tonen
+3. Dit voor een hele deck Pokémonkaarten
+
+<mentor goedgekeurd 18/02/2019>
+
+Nicolas,
+
+Je voorstel is niet helemaal volgens de regels geformuleerd: je 'onderwerp' bevat
+eigenlijk je doelstellingen en je 'Einddoelen' bevatten de indicatoren dat je die
+doelstellingen gehaald hebt.
+
+Omdat uit je verdere omschrijving voldoende duidelijk blijkt wat je einddoelen en
+criteria zijn, kan ik je vorostel zonder aanpassingen goedkeuren.
+
+</mentor>
+
+
+
+
+Motivatie - betrokkenheid:
+
+Zelf ben ik al altijd een iphone gebruiker geweest en ik vond het altijd super dat de applicaties erop toch nog net dat tikkeltje vloeiender en beter waren op een iphone dan op een android device. Ook heb ik al 4 jaar een mac waarop ik nog weinig 'nuttigs' heb kunnen verwezenlijken. Bij dit project wil ik hier verandering in brengen en mezelf volledig loslaten op het swift programmeren. Sinds ik vorig jaar mijn eerste augumented reality app had was ik meteen verkocht om me hier zelf in te verdiepen.
+
+Motivatie - grenzen verleggen:
+
+Hierbij leer ik grosso modo 2 nieuwe onderwerpen bij die niet in het lessenpakket zitten.
+	1: Programmeren in Swift4 native programming
+	2: Voor het eerst kennismaken met augmented reality in een nieuwe software omgeving met behulp van ARkit2
+
+	1: 	Zelf heb ik nog nooit een regel code geschreven in Xcode (of swift programming) dus dit is al een eerste uitdaging.
+
+	2:	Dit is een AR-platform waar ik zelf nog niet van had gehoord. Zelf heb ik nog niet gewerkt met augmented reality dus dit wordt een tweede misschien nog uitdagendere uitdaging.
+
+Motivatie - professioneel profiel:
+
+	Na mijn eerste les van Web & Mobile Development hoorde ik dat er ook een gastspreker komt die iOS apps ontwikkelt. Die ook op zoek is naar studenten die zowel stage als na school eventueel willen werken voor dit bedrijf. Als dit project dus meevalt kan ik daar eventueel mijn stage lopen alsook eventueel mijn carrière starten.
+
+
+
+kerndoelen: 1.a, 1.b, 2.b, 5.c, 8.k, 10.m
+
+Eerst en vooral de syntax en dergelijke begrijpen van swift programming via een verscheidene tutorials online.
+vb: https://codewithchris.com/learn-swift/
+	https://designcode.io/swift4
+	...
+
+Vervolgens het leren werken met Arkit
+vb: https://developer.apple.com/videos/graphics-and-games/ar-vr
+	...
+
+=================================================================================
+Planning - 11/03
+=================================================================================
+
+Week 1
+Week 2
+Week 3
+Week 4
+Learn to swift code
+
+Week 5
+Week 6
+Learn about ARKit
+
+Week 7
+Week 8
+Week 9
+Building this project
+
+Week 10
+Review and debug the project
+
+
+=================================================================================
+Logboek
+=================================================================================
+
+<Noteer hier je activiteiten, gevonden informatie, behaalde milestones, 
+belangrijke gebeurtenissen, problemen, oplossingen...
+Zet voor elke nieuwe entry op een aparte lijn je naam en de datum.
+Als je dat wil, mag je de zuiver technische informatie in een aanvullend 'technisch logboek'
+bijhouden (binnen je repository). In dat geval kan je hier bij de verschillende entries verwijzen
+naar dat technisch logboek.>
+
+Nicolas Van Belle - 01/03
+Informatie: Veel informatie gewonnen door een gastles bij Web & Mobile dev over native IOS programming.
+--------------------------------------------------------------------------------
+Eerste tussenrapportering - 26/03
+--------------------------------------------------------------------------------
+Nicolas Van Belle - 01/04
+Ik heb de planning vandaag wat aangepast, ik start deze week met AR-KIT.
+Vandaag heb ik een laatste app gemaakt die connectie maakt met een API, met behulp
+van cocoapods ( SwiftyJason, Alamofire & SVProgressHUD ).
+SwiftyJason zorgt voor:
+    makkelijker data halen uit de JSON file (API)
+Alamofire zorgt voor:
+    makkelijk API request sturen ( https://openweathermap.org/ )
+SVProgressHUd zorgt voor:
+    Load animatie
+    
+De applicatie die ik vandaag heb afgewerkt is een soort van "Weer app"
+(Aan mentor: Vanavond zet ik alle projecten tot nu toe op git)
+Behaalde milestone: Learn to Swift code.
+--------------------------------------------------------------------------------
+Nicolas Van Belle -03/05
+Deze week later dan voorzien begonnen met het project zelf. Maar de voorbije weken
+al veel bijgeleerd in verband met ARkit(2). Het grote voordeel is dat swift al veel voor me doet.
+Zoals vlakken herkennen (verticaal & horizontaal), textures op spheres/andere figuren kleven is 1 lijn code :)
+--------------------------------------------------------------------------------
+
+=================================================================================
+Eerste tussenrapportering - 26/03
+=================================================================================
+
+Stand van zaken:
+
+Ik heb sinds de start van dit vak nu al verschillende dingen geleerd in verband met Swift programming in Xcode. Zo moest ik bij de start eerst en vooral vertrouwd geraken met de omgeving (Xcode) en de verschillende syntax.
+Ik heb al een aantal applicaties gemaakt die runnen op mijn eigen device om vooraleer ik start met het project al enkele keren verschillende projecten te builden.
+Voorbeelden zijn: Een xylofoon, een quiz, SimonSays, een dobbelgame, ...
+Ik werk via Model-View-Controller patroon om deze apps te maken. 
+Vanaf volgende week zou ik starten met het project zelf.
+
+Reflectie:
+
+Voor de taal te leren volgde ik een cursus zoals ik bij de start van het vak voor ogen had.
+Ik leer veel bij maar moet regelmatiger werken. Ik werk wekelijks maar één keer
+aan dit project en dit zou ik wat willen opdrijven naar minimum drie keer.
+Zeker nu het project voor mij start wil ik er meer geregeld aan werken.
+In mijn planning ga ik voorlopig nog geen aanpassingen aanbrengen.
+
+Zelfevaluatie:
+
+Nieuw verworven kennis:     B
+Toepassing aangetoond :     C
+Planning              :     C
+Initiatief / Inzet    :     B/C
+Rapportering          :     C
+
+
+
+<mentor – 1 april 2019>
+
+Nicolas,
+
+Op basis van je tussenrapportering heb ik het gevoel dat je aanpak degelijk is, 
+dat je goed vordert en dat er niet echt problemen zijn.
+
+Bij je stand van zaken vermeld je nog geen realisaties met ARKit (tenzij ik me
+vergis). Volgens je planning zou je daar nu ook ongeveer mee overweg moeten kunnen, denk ik?
+
+Voor wat je planning betreft: die is erg summier. Je hebt eigenlijk enkel vier
+algemene milestones vastgelegd.
+Ik zou je aanraden om voor het vervolg van je project een meer concrete en
+gedetailleerde planning op te stellen voor de resterende weken tot het
+evaluatiegesprek (op 12 juni). Daarin kan je per week kort vermelden welke
+aspecten van je project je wil afwerken en wat je daarbij concreet wil bereiken.
+Probeer ook wat reserve in te bouwen, voor het geval je ergens onverwacht problemen
+krijgt of wat meer tijd nodig hebt dan verwacht.
+Aan de hand van die planning kan je dan elke week beter nagaan of je nog op schema
+zit en waar je eventuele moet bijsturen. 
+
+Een tip: Plaats alles wat je tot nu aan test-toepassingen geschreven hebt, bij op
+je GIT-repository.  Zet daar ook een verwijzing naar de cursus die je gevolgd hebt
+met korte inhoud en eventueel 'certificate of completion' en dergelijke. 
+Werk ook voor je eigen project in een map op je GIT-repository en zorg voor regelmatige
+commits (minstens elke keer als je aan je project gewerkt hebt). 
+
+Door zo te werken, heb je een aantal voordelen:
+
+-	Je bent gaandeweg je uiteindelijk portfolio aan het opbouwen zodat je daar
+    op het einde niet zoveel werk meer aan hebt.
+-	Je hebt een reservekopie van je project voor als er lokaal iets misgaat of
+    voor het geval je eventueel verkeerde wijzigingen ongedaan wilt maken.
+-	Ik kan beter opvolgen hoe je vordert en moet me daarover dan minder zorgen
+    maken (waardoor jij je op jouw beurt weer minder zorgen moet maken 😊). 
+
+De scores uit je zelfevaluatie lijken me realistisch. Hoogstwaarschijnlijk zullen
+die ook nog flink stijgen naarmate je portfolio en je eigen project verder uitgewerkt worden.
+
+In elk geval veel succes bij het verdere verloop!
+
+Johan
+
+</mentor>
+
+=================================================================================
+Eindrapportering - 27/05
+=================================================================================
+
+
+Eindrapportering:
+
+Ik heb zo goed als alles bereikt wat ik wou bereiken.
+Hieronder nog even de einddoelen:
+1. Pokémon(figuur) herkennen op de Pokémonkaart.
+2. 3D-model op de kaart tonen
+3. Dit voor een hele deck Pokémonkaarten
+
+Stap 1 & 2 zijn volledig tot een goed einde gebracht.
+    (Zie portfolio)
+Stap 3 is niet een volledig deck Pokémonkaarten geworden (4 kaarten).
+Omdat:
+    a)  Het niet eenvoudig is om een 3D-model te maken van een Pokémon
+    b)  Het niet evident is om gratis en goeie Pokémon modellen te vinden op het web.
+    c)  Hier zelf een keuze heb ingemaakt en 'duidelijk' kan tonen dat als het programma met 1,2, ...
+        kaarten werkt het ook werkt met 150 of meer kaarten. Het is een kwestie van de data aan te vullen.
+        Wat niet de hoofdzaak is in dit Proof Of Concept.
+
+
+Reflectie:
+
+#Aanpak#
+Ik vind van mezelf dat ik dit project vrij goed tot goed heb aangepakt.
+Swift was een programmeertaal waarmee ik nog nooit in aanmerking was gekomen, 
+dus zou het ook "gek" geweest zijn om meteen vanaf stap 1 dit project te proberen ontwikkelen
+met 0 kennis van hoe de taal ineen zit.
+
+Ik ben blij dat ik verschillende 'basis' tutorials heb gevolgd waarbij ik allerlei dingen heb bijgeleerd ivm Swift.
+Deze vorderde met de tijd naar iets meer geavanceerde projectjes (Weather app, ARDice, ARRuler, ...)
+Deze projecten waren allemaal klein, leerrijk en bovendien leuk.
+
+Wat beter had gekund, zeker in het eerste deel van het semester was meer regelmaat brengen in mijn werk.
+Ik had een paar weken waar ik soms maar één keer werkte aan dit project terwijl ik dit moest optrekken naar zeker 2 à 3
+keer per week om goed te zijn (vond ik zelf) ik was er dan iets te lang uit om alle syntaxis volledig uit het hoofd te kennen (dus af en toe opzoeken).
+
+Om op de vraag te antwoorden wat ik anders zou gedaan hebben nu het project op zijn einde loopt zeg ik simpel voor mij niets.
+Ik vond de aanpak om eerst ‘goed’ de basis te leren en daarop verder werken de beste.
+
+
+#Originele Einddoelen# & #Resultaat#
+Ik denk dat als de originele einddoelen en het resultaat hetzelfde zijn dat ik tevreden mag zijn over mijn aanpak en planning.
+De laatste twee weken waren ingepland als project review en debugging.
+Hierbij heb ik in die eerste van de twee weken nog verder gewerkt aan mijn project zelf.
+Wat wel het voordeel met zich meebracht dat ik niets meer moest debuggen.
+
+
+<Hoe zou je je nog verder kunnen profileren in de richting van je onderwerp? >
+
+
+Inhoud Portfolio:
+
+Portfolio zal ook in de bijlage staan in git
+
+Bronnenlijst:
+
+<Geef hier een lijst van gebruikte bronnen volgens de IEEE-standaard>
+    https://codewithchris.com/learn-swift/
+	https://designcode.io/swift4
+	https://udemy.com
+
+Zelfevaluatie:
+
+nieuw verworven kennis  :   B
+toepassing aangetoond   :   B
+planning                :   A
+initiatief - inzet      :   A-B     (Alle kleinere projecten die voorgaand waren op het eindresultaat)
+rapportering            :   C
+
+
+
+
+
+
